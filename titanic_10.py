@@ -11,7 +11,4 @@ ma = pd.DataFrame(ma.Name.str.split(' ', 1).tolist())
 
 fe = pd.DataFrame(fe.Name.str.split(' ',1).tolist())
 
-
-
-# fe[0] - исследуем столбик с именем, index[0] - выводит первый элемент
 print(fe[0].value_counts().index[0], ma[0].value_counts().index[0])
